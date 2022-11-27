@@ -34,7 +34,7 @@ sudo journalctl -fu nethermind
 
 ## Delete Nethermind
 ```
-wget -O delete.sh https://raw.githubusercontent.com/papadritta/Gnosis_archive/main/box/startup.sh && chmod +x delete.sh && ./delete.sh
+wget -O delete.sh https://raw.githubusercontent.com/papadritta/Gnosis_archive/main/box/delete.sh && chmod +x delete.sh && ./delete.sh
 
 ```
 ## Do you need a server?
