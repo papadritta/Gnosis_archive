@@ -19,7 +19,7 @@ wget -O startup.sh https://raw.githubusercontent.com/papadritta/Gnosis_archive/m
 ```
 >Tested on Ubuntu 21.04, 20.04 and 18.04 LTS and 21.10
 
-## or
+***NOTE!: If you CLI version less than 1.14.1 you mast to update for the Merge >>>***
 ## Update Nethermind client
 >works only if you use installation script above with different version of Nethermind
 ```
