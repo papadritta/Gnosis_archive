@@ -21,9 +21,15 @@ wget -O startup.sh https://raw.githubusercontent.com/papadritta/Gnosis_archive/m
 
 ***NOTE!: If you CLI version less than 1.14.1 you mast to update for the Merge >>>***
 ## Update Nethermind client
->works only if you use installation script above with different version of Nethermind
+
 ```
-wget -O
+cd $HOME
+sudo systemctl stop nethermind.service
+wget https://github.com/NethermindEth/nethermind/releases/download/1.14.6/nethermind-linux-amd64-1.14.6-6aea772-20221121.zip
+unzip nethermind-linux-amd64-1.14.6-6aea772-20221121.zip -d nethermind
+#choose an option [A]ll and overwrite all
+sudo rm -r nethermind-linux-amd64-1.14.6-6aea772-20221121.zip
+sudo systemctl restart nethermind.service
 ```
 ## Check status & logs Nethermind
 
