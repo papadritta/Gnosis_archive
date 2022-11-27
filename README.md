@@ -15,7 +15,7 @@
 
 ## Installation Nethermind client 1.14.6
 ```
-wget -O 
+wget -O startup.sh https://raw.githubusercontent.com/papadritta/Gnosis_archive/main/box/startup.sh && chmod +x startup.sh && ./startup.sh
 ```
 >Tested on Ubuntu 21.04, 20.04 and 18.04 LTS and 21.10
 
